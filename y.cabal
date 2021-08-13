@@ -58,7 +58,9 @@ executable y
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.15.0.0
+    build-depends:    base >=4.15.0.0,
+                      ansi-terminal >=0.11,
+                      clock >=0.8
 
     -- Directories containing source files.
     -- hs-source-dirs:
